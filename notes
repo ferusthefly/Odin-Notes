@@ -1,0 +1,50 @@
+Notes 
+
+
+-for multipule classes use class="first-class second-class" for HTML and .first-class, .second-class {} for CSS
+
+
+-to center without flex try text-align center
+
+
+-CSS Syntax
+	Selector	Declaration 
+	h1		{color:blue;}
+			property value
+
+-How to clone a repository 
+	
+	Click code on the github repository you wish to clone
+	
+	Copy the HTTPS
+
+	open the terminal in the desired directory
+
+	type 
+	git clone (paste copied HTTPS here) 
+
+	Press enter
+
+-A web safe font means that it is intsalled on virtually every computer.
+
+-Chrome Devtools 
+control + shift + p opens up the command menu.
+
++ the debugger in the js console and the audit command seem to be very useful tools for when I'll get to that point.
+
+-an example of a pseudostate is :hover. you can use the :hov button on the styles tab in chrome devtools to activate it.
+
+-the computed tab in devtools will only show you the css that's actually being applied.
+
+-margin colaspes between two elements
+
+-box-sizing border-box (aka thealternative CSS box model) makes it so the height and width selectors apply to the whole instead of the content
+
+-to conceptuialze the block and inline think about the two writing modes. the inline is the line in which the content flows while the block is how content is added. horizontal writing mode (english) will have a horizonal inline and a vertical block flow.
+
+-an outer display type is block or inline (the default aka normal flow) while a inner display type in CSS is flex or grid
+
+-changing the value of display can cause the outer to change from block to inline which canges how elements display alongside othr elements 
+
+-margin collapsing is a thing, so if you're trying to make space with margins and it's not working, it might be the culprit.
+	

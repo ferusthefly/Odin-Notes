@@ -1,0 +1,23 @@
+-How do you check every inherited style for an element in your browser’s developer tools?
+	
+	-you can look above the element in the html pannel. you can look to the right in the style pannel, locate the element you want to track and see if there is a inherited from above said elements name. Or you could go to the right of the style tab to the computed tab to scroll through where everything lies.
+
+-How do you edit HTML in real time in your browser’s developer tools?
+
+	- you right click and select edit as html. 
+
+-How do you toggle responsive design mode in your browser’s developer tools?
+
+	-responsive design mode AKA view mobile mode. it is to the right of the inspect element button
+
+-Are changes made in your browser’s developer tools permanent?
+
+	-No, if you refresh the page you will lose any edits.
+
+-How do you open the console in your browser’s developer tools?
+
+	-is it just clicking on the console tab?
+
+-What is the best resource for learning about your browser’s developer tools?
+
+	-https://developer.chrome.com/docs/devtools/ this link goes to the official documentation for chrome devtools
