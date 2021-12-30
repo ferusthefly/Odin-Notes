@@ -47,4 +47,11 @@ control + shift + p opens up the command menu.
 -changing the value of display can cause the outer to change from block to inline which canges how elements display alongside othr elements 
 
 -margin collapsing is a thing, so if you're trying to make space with margins and it's not working, it might be the culprit.
+
+
+-== tests to see if things match in abstract while === tests to see if things match in te literal e.g true and 1 match in abstract because 1 = true in js but in === it means a one to one exact comparisson which 1 is not true only 1 === 1 or true === true would pass as true. also of note Comparing two JavaScript objects always returns false.
+
+you can't ++ -- (increment) to a number. it will only work with a variable. Also putting these before the variable will return with it exicuted while after it will show the current number and then go.
+
+how is /= neater than / ? because it changes what x is while doing the equation.
 	
