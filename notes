@@ -53,5 +53,32 @@ control + shift + p opens up the command menu.
 
 you can't ++ -- (increment) to a number. it will only work with a variable. Also putting these before the variable will return with it exicuted while after it will show the current number and then go.
 
-how is /= neater than / ? because it changes what x is while doing the equation.
-	
+how is (/=) better than (/) ? because it changes what x is while doing the equation.
+
+when calulating numbers and strings, things work differently with the + operator. this is because 'adding' strings and numbers smushes them together. eg '1' + 2 = 12. it goes left to right so if 2 + 2 + '9' the result would be 49.
+
+unary is when the operator is alone. eg -1 or in the case of strings it can convert them to numbers. +true would be 1 while +false would be 0. or if you did 
+let apples = "2";
+let oranges = "3";
+// both values converted to numbers before the binary plus
+alert( +apples + +oranges ); // 5
+
+unary operators have precedence over binary operators. Every operator has a corresponding precedence number. The one with the larger number executes first. If the precedence is the same, the execution order is from left to right.
+
+in
+let n = 2;
+n *= 3 + 5;
+the answer is 16 because of precedence. the + goes first, then the *= is aplied.
+to make code more readable stick to the one action one line rule because One line doing multiple things is not good	
+
+an empty string is converted to zero.
+
+"\t \n" - 2 = -2 because the \ acts as some type of command that also negates it from the string so the srting becomes "" which as stated above empty strings are conveted to zero. so "" - 2 is 0 - 2 which is -2
+
+an example of a ternary let accessAllowed = (age > 18) ? true : false; 
+
+you can't have a semicolon ; after the condition in an else if otherwise it will run them all
+
+example of a switch statment - switch (expression) {code to execute}
+
+
