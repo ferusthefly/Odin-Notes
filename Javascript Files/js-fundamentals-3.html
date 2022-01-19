@@ -6,7 +6,24 @@
 </head>
 <body>
   <script>
-     let add7 = (a) => a + 7; 
+//    
+  let add7 = (a) => a + 7;
+//  
+  let multiply = (a, b) => a * b;
+//
+    //This makes the string all lowercase to account for wEiRd inputs.
+  function allLowercase(string) {
+  return string.toLowerCase();
+  }
+    //This takes the above function, runs it, and then makes only the first character uppercase.
+  function capitalize(string) {
+    string = allLowercase(string);
+    return string.charAt(0).toUpperCase() + string.slice(1); 
+  }
+//
+  function lastLetter(string) {
+    return string.slice(-1);
+  }
   </script>
 </body>
 </html>
